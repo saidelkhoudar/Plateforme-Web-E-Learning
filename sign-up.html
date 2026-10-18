@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title> Sign Up Page</title>
+
+        <!-- CSS FILES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/slick.css"/>
+
+         <link href="css/style.css" rel="stylesheet">
+        
+
+    </head>
+    
+    <body>
+
+        <section class="preloader">
+            <div class="spinner">
+                <span class="sk-inner-circle"></span>
+            </div>
+        </section>
+    
+        <main>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <a class="navbar-brand " href="index.html">
+                        <strong><span>Espace </span> <span style="color: #a80404">Etudiant</span></strong>
+                    </a>
+
+                    <div class="d-lg-none">
+                        <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
+
+                     
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="index.html">Accueil</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="cour.html">Cours</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="td e tp.html">TD/TP et Examen</a>
+                            </li>
+
+                     
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+
+                        <div class="d-none d-lg-block">
+                            <a href="sign-in.html" class="bi-person custom-icon me-3"> </a>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <section class="sign-in-form section-padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto col-12">
+
+                            <h1 class="hero-title text-center mb-5">Sign Up</h1>
+
+                            <div class="social-login d-flex flex-column w-50 m-auto">
+                                
+                                <a href="#" class="btn custom-btn social-btn mb-4">
+                                    <i class="bi bi-google me-3"></i>
+
+                                    Continue with Google
+                                </a>
+
+                            </div>
+
+                            <div class="div-separator w-50 m-auto my-5"><span>or</span></div>
+
+                            <div class="row">
+                                <div class="col-lg-8 col-11 mx-auto">
+                             
+                                    <form role="form" method="post" action="register_process.php">
+                                        <input type="hidden" name="csrf_token" id="csrf_token" value="">
+
+                                        <div class="form-floating">
+                                            <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" required>
+
+                                            <label for="email">Email address</label>
+                                        </div>
+
+                                        <div class="form-floating my-4">
+                                            <input type="password" name="password" id="password" pattern="[0-9a-zA-Z]{4,10}" class="form-control" placeholder="Password" required>
+
+                                            <label for="password">Password</label>
+                                        </div>
+
+                                        <div class="form-floating">
+                                            <input type="password" name="confirm_password" id="confirm_password" pattern="[0-9a-zA-Z]{4,10}" class="form-control" placeholder="Password" required>
+
+                                            <label for="confirm_password">Password Confirmation</label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="role">نوع المستخدم:</label>
+                                            <input type="text" id="role" class="form-control" value="طالب" disabled>
+                                            <small class="text-muted">L'inscription publique crée uniquement des comptes étudiants.</small>
+                                        </div>
+                                        <button type="submit" class="btn custom-btn form-control mt-4 mb-3">
+                                            Create account
+                                        </button>
+
+                                    </form>
+                                </div>
+                            </div>
+                            
+                        </div>
+                       </div>
+                </div>
+            </section>
+                        <!-- map image section start -->
+            <div class="contact_section layout_padding">
+              <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-6 padding_left0">
+                  <div class="mail_section">
+                     <div class="contact_img">
+                        
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="map_main"><img src="images/map-img.png"></div>
+               </div>
+            </div>
+              </div>
+            </div>
+
+        </main>
+
+           <!-- footer section start -->
+       <footer>
+         <div class="footer_section layout_paddin">
+         <div class="container">
+            <div class="footer_section_2">
+               <div class="row">
+                  <div class="col-lg-3 margin_top">
+                     <div class="call_text"><a href="#"><img src="images/media/call-icon1.png"><span class="padding_left_15">  +212 535 21 19 76</span></a></div>
+                     <div class="call_text"><a href="#"><img src="images/media/call-icon1.png"><span class="padding_left_15">  +212 5 35 21 19 78</span></a></div>
+                     <div class="call_text"><a href="#"><img src="images/media/mail-icon1.png"><span class="padding_left_15"> support.fpt@usmba.ac.ma</span></a></div>
+                  </div>
+                  <div class="col-lg-3">
+                     <div class="information_main">
+                        <h4 class="information_text">Informations</h4>
+                        <p class="many_text">hhhhhhhhh gdgg gfgdg gffdg ggffd gfd gfd gfd gfd gfsgfd fffff fff ffd fffd fdd  jjjjjjjjjjjjjjjjjjjjjjjjjjjjj hggf hggf hggff gff </p>
+                     </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                     <div class="information_main">
+                        <h4 class="information_text">liens utiles</h4>
+                        <div class="footer_menu">
+                           <ul>
+                              <li><a href="index.html">Accueil</a></li>
+                              <li><a href="td e tp.html">Cours</a></li>
+                              <li><a href="td e tp.html">TD et TP</a></li>
+                              <li><a href="td e tp.html">Examen</a></li>
+                              <li><a href="contact.html">Contact</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-3">
+                     <div class="information_main">
+                        <div class="footer_logo"><a href="index.html">espace Etudiant</a></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         </div>
+      <!-- footer section end -->
+      <!-- copyright section start -->
+         <div class="copyright_section">
+         <div class="container">
+            <p class="copyright_text">© 202(5)   <a href="#">SAID el KHOUDAR</a></p>
+         </div>
+          </div>
+      <!-- copyright section end --> 
+       </footer>
+
+    <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/Headroom.js"></script>
+        <script src="js/jQuery.headroom.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/custom.js"></script>
+        <script>
+            // Récupère le jeton CSRF de la session pour protéger le formulaire d'inscription
+            fetch('csrf.php')
+                .then(function (r) { return r.json(); })
+                .then(function (d) { document.getElementById('csrf_token').value = d.token; })
+                .catch(function () { console.error('Impossible de charger le jeton CSRF'); });
+        </script>
+    </body>
+</html>

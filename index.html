@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Espace Etudiant</title>
+
+        <!-- CSS FILES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/slick.css"/>
+
+        <link href="css/style.css" rel="stylesheet">
+
+    </head>
+    
+    <body>
+
+        <section class="preloader">
+            <div class="spinner">
+                <span class="sk-inner-circle"></span>
+            </div>
+        </section>
+    
+        <main>
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <a class="navbar-brand " href="index.html">
+                        <strong><span>Espace </span> <span style="color: #a80404">Etudiant</span></strong>
+                    </a>
+
+                    <div class="d-lg-none">
+                        <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
+
+                     
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="index.html">Accueil</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="cour.html">Cours</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="td e tp.html">TD/TP et Examen</a>
+                            </li>
+
+                     
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+
+                        <div class="d-none d-lg-block">
+                            <a href="sign-in.html" class="bi-person custom-icon me-3"> </a>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+
+           <section class="py-5 text-center bg-light">
+            <h1>Bienvenue sur la plateforme</h1>
+            <p>Faites défiler pour découvrir l'espace étudiant</p>
+           </section>
+
+<!-- HEADER Section -->
+<header class="header container py-5 d-flex align-items-center justify-content-between" id="slideshow-section">
+  <!-- Texte -->
+  <div class="text-box col-md-6">
+    <h2 class="fw-bold text-primary">Espace Étudiant</h2>
+    <p class="lead text-dark">
+     <strong>La plateforme Espace Étudiant est un set web éducatif développée pour faciliter l'apprentissage
+      et l'enseignement dans le cadre de la filière Ingénierie des Systèmes d'Information (ISI)</strong>.
+    </p>
+  </div>
+
+  <!-- Image Slideshow -->
+  <div class="image-box col-md-6 text-center">
+    <img id="slideshow-image" src="images/slideshow/Image 1.png" class="img-fluid rotating-image" alt="slideshow image" />
+  </div>
+</header>
+
+            <section class="front-product">
+                <div class="container-fluid p-0">
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-6 col-12">
+                            <img src="images/fac1.jpg" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="col-lg-6 col-12">
+                            <div class="px-5 py-5 py-lg-0">
+                                
+                                <h2 class="mb-4"><span>Présentation de l’Université</span> </h2>
+
+                                <p class="lead mb-4">Une université moderne qui offre une formation de qualité, alliant savoir théorique et compétences pratiques. Elle prépare les étudiants à réussir dans leur carrière et à contribuer à la société, avec un corps enseignant qualifié et un environnement propice à l’innovation.</p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="td_et_tp section-padding">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12 text-center">
+                            <h2 class="mb-5">Nous sommes là pour vous  <span>faciliter</span> la vie universitaire.</h2>
+                        </div>
+
+                        <div class="col-lg-2 col-12 mt-auto mb-auto">
+                            <ul class="nav nav-pills mb-5 mx-auto justify-content-center align-items-center" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">INTRODUCTION</button>
+                                </li>
+
+                               
+
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-skill-tab" data-bs-toggle="pill" data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill" aria-selected="false">CAPACIT</button>
+                                </li>
+
+
+                                 <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-youtube-tab" data-bs-toggle="pill" data-bs-target="#pills-youtube" type="button" role="tab" aria-controls="pills-youtube" aria-selected="true">YOUTUBE CHANNEL?</button>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-10 col-12">
+                            <div class="tab-content mt-2" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+                                    <div class="row">
+                                        <div class="col-lg-7 col-12">
+                                            <img src="images/Introduction.jpg" class="img-fluid" alt="">
+                                        </div>
+
+                                        <div class="col-lg-5 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3">Bienvenue sur notre plateforme universitaire !</h4>
+
+                                                <p>Cette plateforme a été conçue spécialement pour vous aider à réussir votre parcours universitaire, en mettant à votre disposition des cours, des exercices et des examens, le tout dans un seul espace. Notre objectif est de rendre vos études plus simples, organisées et efficaces.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="pills-skill" role="tabpanel" aria-labelledby="pills-skill-tab">
+                                    <div class="row">
+                                        <div class="col-lg-7 col-12">
+                                            <img src="images/Capabilites.png" class="img-fluid" alt="">
+                                        </div>
+
+                                        <div class="col-lg-5 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3">Comment pouvons-nous vous aider ?</h4>
+
+                                                <p>Nous vous offrons les ressources dont vous avez besoin pour réussir votre parcours universitaire :</p>
+
+                                                <div class="skill-thumb mt-3">
+
+                                                    <strong>📚 Cours et documents </strong>
+                                                        <span class="float-end">100%</span>
+                                                            <div class="progress">
+                                                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                                                            </div>
+
+                                                    <strong>📝 Exercices et tp</strong>
+                                                        <span class="float-end">100%</span>
+                                                            <div class="progress">
+                                                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+                                                            </div>
+
+                                                    <strong>🌐 Une plateforme facile </strong>
+                                                        <span class="float-end">100%</span>
+                                                            <div class="progress">
+                                                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                                                            </div>
+
+                                                </div>
+                                              
+                                            </div>
+                                        </div>
+                                    </div>
+                                 </div>   
+
+                                <div class="tab-pane fade" id="pills-youtube" role="tabpanel" aria-labelledby="pills-youtube-tab">
+
+                                    <div class="row">
+                                        <div class="col-lg-7 col-12">
+                                            <div class="ratio ratio-16x9">
+                                               <a href="https://www.youtube-nocookie.com/embed/RXf-JuACYco?controls=0"><img src="images/cour prf.jpeg" class="img-fluid" alt=""></a> 
+                                               
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-5 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3">Suivie pour ses vidéos éducatives</h4>
+                                                <p>	•	Des conseils pratiques </p>
+                                                <p> •	Des leçons claires et faciles à comprendre</p>                                                
+                                                  <div class="col-12 text-center">
+                                                         <h5 class="mb-5"> Avec les meilleurs  <span>professeurs</span></h5>
+                                                  </div>
+                                                <div class="mt-2 mt-lg-auto">
+                                                    <a href="https://www.youtube.com/c/Facult%C3%A9PolydisciplinaireDeTAZA" class="custom-link mb-2">
+                                                        with us
+                                                        <i class="bi-arrow-right ms-2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                               
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        
+ 
+<!--  Professeur  -->
+            <section class="team section-padding">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12">
+                            <h2 class="mb-5">Professeur  <span>universitaire</span></h2>
+                        </div>
+
+                        <div class="col-lg-4 mb-4 col-12">
+                            <div class="team-thumb d-flex align-items-center">
+                                <img src="images/prof/Mohammed NEMMICH.jfif" class="img-fluid custom-circle-image team-image me-4" alt="">
+
+                                <div class="team-info">
+                                    <h5 class="mb-0">M. NEMMICH</h5>
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn custom-modal-btn" data-bs-toggle="modal" data-bs-target="#Mohammed">
+                                      <i class="bi-plus-circle-fill"></i>
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 mb-4 col-12">
+                            <div class="team-thumb d-flex align-items-center">
+                                <img src="images/prof/team-3.jpg" class="img-fluid custom-circle-image team-image me-4" alt="">
+
+                                <div class="team-info">
+                                    <h5 class="mb-0">A.EL OUAAZIZI</h5>
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn custom-modal-btn" data-bs-toggle="modal" data-bs-target="#Aziza">
+                                      <i class="bi-plus-circle-fill"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 mb-lg-0 mb-4 col-12">
+                            <div class="team-thumb d-flex align-items-center">
+                                <img src="images/prof/testimonial-1.jpg" class="img-fluid custom-circle-image team-image me-4" alt="">
+
+                                <div class="team-info">
+                                    <h5 class="mb-0">S.EL ALAOUI</h5>
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn custom-modal-btn" data-bs-toggle="modal" data-bs-target="#Souad">
+                                      <i class="bi-plus-circle-fill"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+             
+ <!-- TEAM Pr. Mohamed Nemiche -->
+        <div class="modal fade" id="Mohammed" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content border-0">
+                    <div class="modal-header flex-column">
+                        <h3 class="modal-title" id="exampleModalLabel">Pr. Mohamed Nemiche</h3>
+                        <h6 class="text-muted"> Algèbre Relationnel & Langage SQL et Administration des Bases de Données </h6>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <h5 class="mb-4"> Professeure universitaire à la Faculté Polydisciplinaire de Taza</h5>
+
+                        <div class="row mb-4">
+                            <div class="col-lg-6 col-12">
+                                <p>Chef du Département d’Informatique à la Faculté Polydisciplinaire de Taza – Université Sidi Mohamed Ben Abdellah.</p>
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <p>Spécialiste en modélisation et simulation des systèmes complexes, le Pr. Nemiche met son expertise au service des étudiants et de la recherche interdisciplinaire. Il est également président de la Société Marocaine des Études Interdisciplinaires et fondateur de la Conférence Mondiale sur les Systèmes Complexes (WCCS).</p>
+                            </div>
+                        </div>
+
+                        <ul class="social-icon">
+                            <li class="me-3"><strong>Pour en savoir plus sur le Pr. Mohamed Nemiche :</strong></li>
+
+
+                            <li><a href="https://www.uv.es/nemiche/" class="social-icon-link bi-linkedin"></a></li>
+                            <li><a href="#" class="social-icon-link bi-envelope"></a></li>
+                            <li><a href="#" class="social-icon-link bi-plus-circle-fill"></a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+<!-- TEAM Pr.aziza eloaazizie -->
+        <div class="modal fade" id="Aziza" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+           <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content border-0">
+                    <div class="modal-header flex-column">
+                        <h3 class="modal-title" id="exampleModalLabel">A.EL OUAAZIZI</h3>
+                        <h6 class="text-muted"> Algèbre Relationnel & Langage SQL et Administration des Bases de Données </h6>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <h5 class="mb-4"> Professeure universitaire à la Faculté Polydisciplinaire de Taza</h5>
+
+                        <div class="row mb-4">
+                            <div class="col-lg-6 col-12">
+                                <p>Professeure universitaire et chercheuse en informatique avec plus de 20 ans d’expérience dans l’enseignement et la recherche scientifique. Elle a encadré de nombreux étudiants et participé à plusieurs projets de recherche nationaux et internationaux dans les domaines de l’intelligence artificielle, du machine learning et de la vision par ordinateur..</p>
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <p>Combinaison d’excellence académique et d’esprit d’innovation, elle œuvre continuellement à l’amélioration de la qualité de l’enseignement et de la recherche au sein de l’université marocaine.</p>
+                            </div>
+                        </div>
+
+                        <ul class="social-icon">
+                            <li class="me-3"><strong>Pour en savoir plus sur le A.EL OUAAZIZI :</strong></li>
+
+
+                            <li><a href="https://www.linkedin.com/in/aziza-el-ouaazizi-8b78b3258/?originalSubdomain=ma" class="social-icon-link bi-linkedin"></a></li>
+                            <li><a href="#" class="social-icon-link bi-envelope"></a></li>
+                            <li><a href="https://www.researchgate.net/profile/Aziza-El-Ouaazizi" class="social-icon-link bi-plus-circle-fill"></a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+<!-- TEAM Pr.alawi -->
+        <div class="modal fade" id="Souad" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content border-0">
+                    <div class="modal-header flex-column">
+                        <h3 class="modal-title" id="exampleModalLabel">prf Souad ALAOUI</h3>
+
+                        <h6 class="text-muted">Founder & CEO</h6>
+
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <h5 class="mb-4"> Professeure universitaire à la Faculté Polydisciplinaire de Taza</h5>
+
+                        <div class="row mb-4">
+                            <div class="col-lg-6 col-12">
+                                <p> Professeure universitaire à la Faculté Polydisciplinaire de Taza  Professeure universitaire à la Faculté Polydisciplinaire de Taza  Professeure universitaire à la Faculté Polydisciplinaire de Taza</p>
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <p> Professeure universitaire à la Faculté Polydisciplinaire de Taza  Professeure universitaire à la Faculté Polydisciplinaire de Taza</p>
+                            </div>
+                        </div>
+
+                        <ul class="social-icon">
+                            <li class="me-3"><strong>linke</strong></li>
+
+                            <li><a href="#" class="social-icon-link bi-twitter"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-linkedin"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-envelope"></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+<!-- contact section start -->
+      <div class="contact_section layout_padding">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-6 padding_left0">
+                  <div class="mail_section">
+                     <div class="contact_img">
+                        
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="map_main"><img src="images/map-img.png"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- contact section end -->
+
+        </main>
+
+<!-- footer section start -->
+       <footer>
+      <div class="footer_section layout_paddin">
+         <div class="container">
+            <div class="footer_section_2">
+               <div class="row">
+                  <div class="col-lg-3 margin_top">
+                     <div class="call_text"><a href="#"><img src="images/media/call-icon1.png"><span class="padding_left_15">  +212 535 21 19 76</span></a></div>
+                     <div class="call_text"><a href="#"><img src="images/media/call-icon1.png"><span class="padding_left_15">  +212 5 35 21 19 78</span></a></div>
+                     <div class="call_text"><a href="#"><img src="images/media/mail-icon1.png"><span class="padding_left_15"> support.fpt@usmba.ac.ma</span></a></div>
+                  </div>
+                  <div class="col-lg-3">
+                     <div class="information_main">
+                        <h4 class="information_text">Informations</h4>
+                        <p class="many_text"> Faculté Polydisciplinaire de Taza, Université Sidi Mohamed Ben Abdallah</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                     <div class="information_main">
+                        <h4 class="information_text">liens utiles</h4>
+                        <div class="footer_menu">
+                           <ul>
+                              <li><a href="index.html">Accueil</a></li>
+                              <li><a href="td e tp.html">Cours</a></li>
+                              <li><a href="td e tp.html">TD et TP</a></li>
+                              <li><a href="td e tp.html">Examen</a></li>
+                              <li><a href="contact.html">Contact</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-3">
+                     <div class="information_main">
+                        <div class="footer_logo"><a href="index.html">espace Etudiant</a></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- footer section end -->
+      <!-- copyright section start -->
+      <div class="copyright_section">
+         <div class="container">
+            <p class="copyright_text">© 202(5)   <a href="#">SAID el KHOUDAR</a></p>
+         </div>
+      </div>
+      <!-- copyright section end --> 
+       </footer>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="script.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/Headroom.js"></script>
+        <script src="js/jQuery.headroom.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
+</html>

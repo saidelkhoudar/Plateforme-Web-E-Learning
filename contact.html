@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Contact Page</title>
+
+        <!-- CSS FILES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/slick.css"/>
+
+          <link href="css/style.css" rel="stylesheet">
+        
+
+    </head>
+    
+    <body>
+
+        <section class="preloader">
+            <div class="spinner">
+                <span class="sk-inner-circle"></span>
+            </div>
+        </section>
+    
+        <main>
+<!-- navbar section start -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <a class="navbar-brand " href="index.html">
+                        <strong><span>Espace </span> <span style="color: #a80404">Etudiant</span></strong>
+                    </a>
+
+                    <div class="d-lg-none">
+                        <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
+
+                     
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="index.html">Accueil</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="cour.html">Cours</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="td e tp.html">TD/TP et Examen</a>
+                            </li>
+
+                     
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+
+                        <div class="d-none d-lg-block">
+                            <a href="sign-in.html" class="bi-person custom-icon me-3"> </a>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+
+             <header class="site-header section-padding-img site-header-image">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-10 col-12 header-info">
+                            <h3>
+                                <span class="d-block text-primary">Nous sommes là pour vous aider</span>
+                                <span class="d-block text-dark">N'hésitez pas à nous contacter </span>
+                                 <span class="d-block text-dark">      à tout moment</span>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <img src="images/contact/contact.png" class="header-image img-fluid" alt="">
+            </header>
+
+<!-- contact section start -->
+ 
+            <section class="contact section-padding" >
+                <div class="container">
+                    <div class="row">
+                        
+                        <div class="col-lg-6 col-12">
+                            <h2 class="mb-4" style="color: #2503e4">ALLONS<span>-</span>Y :</h2>
+
+                            <form class="contact-form me-lg-5 pe-lg-3" role="form">
+
+                                <div class="form-floating">
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Full name" required>
+
+                                    <label for="name">Nom Complet</label>
+                                </div>
+
+                                <div class="form-floating my-4">
+                                    <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" required>
+
+                                    <label for="email">Adresse e-mail</label>
+                                </div>
+                                
+                                <div class="form-floating my-4">
+                                    <input type="subject" name="subject" id="subject"class="form-control" placeholder="Subject" required>
+
+                                    <label for="subject">sujet</label>
+                                </div>
+
+                                <div class="form-floating mb-4">
+                                    <textarea id="message" name="message" class="form-control" placeholder="Leave a comment here" required style="height: 160px"></textarea>
+
+                                    <label for="message">Dites-nous quel est votre problème ou votre question</label>
+                                </div>
+
+                                <div class="col-lg-5 col-6">
+                                    <button type="submit" class="form-control">Envoyer</button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="col-lg-6 col-12 mt-5 ms-auto">
+                            <div class="row">
+                                <div class="col-6 border-end contact-info">
+                                    <h6 class="mb-3">Email de l’université</h6>
+
+                                    <a href="mailto:support.fpt@usmba.ac.ma" class="custom-link">
+                                        support.fpt@usmba.ac.ma
+                                        <i class="bi-arrow-right ms-2"></i>
+                                    </a>
+                                </div>
+
+                                <div class="col-6 contact-info">
+                                	<h6 class="mb-3">Téléphone de l’université</h6>
+
+                                    <ul class="social-icon">
+                                        <li><a href="#" class="social-icon-link bi-phone-fill"> +212 535 21 19 76</a></li>
+                                        <li><a href="#" class="social-icon-link bi-telephone-fill"> +212 535 21 19 78</a></li>
+                                    </ul>
+
+                                </div>
+
+                                <div class="col-6 border-top border-end contact-info">
+                                    <h6 class="mb-3">google maps de l’université</h6>
+                                    <ul class="social-icon "> 
+                                     <li>
+                                        <a href="https://www.google.com/maps/place/%D9%83%D9%84%D9%8A%D8%A9+%D9%85%D8%AA%D8%B9%D8%AF%D8%AF%D8%A9+%D8%A7%D9%84%D8%AA%D8%AE%D8%B5%D8%B5%D8%A7%D8%AA+%D8%AA%D8%A7%D8%B2%D8%A9'+%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%B3%D9%8A%D8%AF%D9%8A+%D9%85%D8%AD%D9%85%D8%AF+%D8%A8%D9%86+%D8%B9%D8%A8%D8%AF+%D8%A7%D9%84%D9%84%D9%87%E2%80%AD/@34.2242542,-4.0021473,14.4z/data=!4m6!3m5!1s0xd9e172f8082ef59:0x55480ada23639c0f!8m2!3d34.2288511!4d-3.9968874!16s%2Fg%2F11bw66wc14?entry=ttu&g_ep=EgoyMDI1MDUxNS4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" class=" bi-compass"> Route d'Oujda - B.P. 1223, TAZA</a>
+                                     </li>
+                                     </ul>
+                                </div>
+                                  
+                                <div class="col-6 border-top contact-info">
+                                    <h6 class="mb-3">rèseaux sociaux de l’université</h6>
+
+                                    <ul class="social-icon">
+
+                                        <li><a href="#" class="social-icon-link bi-messenger"></a></li>
+
+                                        <li><a href="#" class="social-icon-link bi-youtube"></a></li>
+
+                                        <li><a href="#" class="social-icon-link bi-instagram"></a></li>
+
+                                        <li><a href="#" class="social-icon-link bi-whatsapp"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+
+            
+
+
+        </main>
+
+<!-- footer section start -->
+       <footer>
+      <div class="footer_section layout_paddin">
+         <div class="container">
+            <div class="footer_section_2">
+               <div class="row">
+                  <div class="col-lg-3 margin_top">
+                     <div class="call_text"><a href="#"><img src="images/media/call-icon1.png"><span class="padding_left_15">  +212 535 21 19 76</span></a></div>
+                     <div class="call_text"><a href="#"><img src="images/media/call-icon1.png"><span class="padding_left_15">  +212 5 35 21 19 78</span></a></div>
+                     <div class="call_text"><a href="#"><img src="images/media/mail-icon1.png"><span class="padding_left_15"> support.fpt@usmba.ac.ma</span></a></div>
+                  </div>
+                  <div class="col-lg-3">
+                     <div class="information_main">
+                        <h4 class="information_text">Informations</h4>
+                        <p class="many_text">Faculté Polydisciplinaire de Taza, Université Sidi Mohamed Ben Abdallah</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                     <div class="information_main">
+                        <h4 class="information_text">liens utiles</h4>
+                        <div class="footer_menu">
+                           <ul>
+                              <li><a href="index.html">Accueil</a></li>
+                              <li><a href="td e tp.html">Cours</a></li>
+                              <li><a href="td e tp.html">TD et TP</a></li>
+                              <li><a href="td e tp.html">Examen</a></li>
+                              <li><a href="contact.html">Contact</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-3">
+                     <div class="information_main">
+                        <div class="footer_logo"><a href="index.html">espace Etudiant</a></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- footer section end -->
+      <!-- copyright section start -->
+      <div class="copyright_section">
+         <div class="container">
+            <p class="copyright_text">© 202(5)   <a href="#">SAID el KHOUDAR</a></p>
+         </div>
+      </div>
+      <!-- copyright section end --> 
+       </footer>
+<!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/Headroom.js"></script>
+        <script src="js/jQuery.headroom.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/custom.js"></script>
+    </body>
+</html>
